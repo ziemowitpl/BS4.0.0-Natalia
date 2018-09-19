@@ -1,0 +1,243 @@
+.my-jumbotron {
+    background: url(../img/jumbotron.jpg);
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    overflow: hidden;
+}
+.my-jumbotron-slogan {
+    background: rgba(0,0,0, 0.4);
+}
+.my-jumbotron-text {
+    letter-spacing: 0.35rem;
+}
+.my-mission-text::after {
+    content: "";
+    display: block;
+    border: 1px solid #ffc107;
+    width: 200px;
+    margin: 30px auto;
+}
+.my-mission-background-icon {
+    width: 100px;
+    height:100px;
+    border: 1px solid #ffc107;
+    border-radius: 50%;
+    padding: 0.4rem;
+    position: relative;
+}
+.my-mission-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #ffc107;
+}
+
+/* .my-portfolio-text::after {
+    content: '';
+    display: block;
+    border: 1px solid #ffc107;
+    width: 200px;
+    margin: 30px auto;
+}
+.my-portfolio-box {
+    position: relative;
+    max-width: 700px;
+}
+.my-portfolio-box-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+}
+.my-portfolio-box-title {
+    letter-spacing: .2rem;
+    margin-bottom: 1.2rem;
+}
+.my-portfolio-img-overlay::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    content: '';
+    z-index: 0;
+    background: none repeat #6f42c1;
+    opacity: .6;
+}
+.my-portfolio-box-img {
+    max-width: 700px;
+}
+.my-xy {
+    max-height: 150px;
+    object-fit: cover;
+} */
+
+
+/* -------------- */
+.my-portfolio-text::after {
+    content: '';
+    display: block;
+    border: 1px solid #ffc107;
+    width: 200px;
+    margin: 30px auto;
+}
+
+.my-portfolio-box {
+    position: relative;
+    max-width: 700px;
+}
+
+.my-portfolio-box-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 65%;
+}
+
+.my-portfolio-box-title {
+    letter-spacing: .2rem;
+    margin-bottom: 1.2rem;
+}
+
+.my-portfolio-img-overlay::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    content: '';
+    z-index: 0;
+    background: none repeat #6f42c1;
+    opacity: 0.6;
+}
+
+.my-portfolio-singe-img {
+  max-height: 200px;
+  margin-bottom: 10px;
+  
+}
+
+
+.my-portfolio-img-group:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* LINIA SEPARUJĄCA ŚCIĘTA */
+.separator {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.separator::before, .separator::after {
+    content: '';
+    position: absolute;
+}
+.separator::before {
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #6f42c1;
+    transform-origin: 100% 100%;
+    transform: rotate(-1deg);
+}
+.fa-quote-right {
+    color: #ffc107;
+    font-size: 2rem;
+}
+/* PRICE */
+.my-card-main {
+    border: 1px solid #6f42c1;
+    transition: all 400ms ease;
+}
+.my-card-main:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 35px 0 rgb(111,63,193,0.5);
+    -webkit-box-shadow: 0 20px 35px 0 rgb(111,63,193,0.5);
+}
+/* TEAM - ZESPÓŁ */
+.my-team-text::after {
+    content: "";
+    display: block;
+    border: 1px solid #ffc107;
+    width: 200px;
+    margin: 30px auto;
+}
+.my-team-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+a.my-container-link img {
+    filter: sepia(0%);
+    transition: all 600ms;
+}
+a.my-container-link:hover img {
+    -webkit-filter: sepia(80%); /* Safari 6.0 - 9.0 */
+    filter: sepia(80%);
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+a.my-container-link:hover {
+    text-decoration: none;
+}
+a.my-container-link h3, a.my-container-link p {
+    transition: all 600ms;
+}
+a.my-container-link:hover h3, .my-container-link:hover div p {
+    color: #BEA17A;
+}
+/* Kontakt */
+.my-contact-text::after {
+    content: "";
+    display: block;
+    border: 1px solid #ffc107;
+    width: 200px;
+    margin: 30px auto;
+}
+.my-contact-box {
+    max-width: 700px;
+    position: relative;
+}
+.my-contact-img-overlay::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    content: '';
+    z-index: 0;
+    background: none repeat #6f42c1;
+    opacity: 0.6;
+}
+
+.my-contact-box-img {
+    max-width: 700px;
+}
+
+/* footer - stopka */
+.my-footer-header::after {
+    content: '';
+    display: block;
+    border: 1px solid #ffc107;
+    width: 100%;
+    margin: 5px 0 10px 0;
+}
+
+/* Style dodatkowe do Realizacje */
+.my-portfolio-img-group:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
